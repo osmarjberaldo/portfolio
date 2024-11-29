@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Osmar CV - Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="description" content="Osmar CV  - Portfolio" />
-  <meta name="keywords"
-    content="portfolio, cv, osmar, programador, analista de sistema, analista em desenvolvimento de sistemas, paraná, contato, telefone, trabalho, desevolvedor" />
-  <meta name="author" content="lmpixels" />
-  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osmar Beraldo - Portfólio</title>
+  <meta name="description" content="Portfólio de Osmar Beraldo, especialista em desenvolvimento de sistemas, IoT e soluções tecnológicas inovadoras. Explore projetos e entre em contato." />
+  <meta name="keywords" content="Osmar Beraldo, desenvolvedor, IoT, sistemas, analista, tecnologia, portfólio, projetos" />
+  <meta name="author" content="Osmar Beraldo" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+ 
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
   <link rel="stylesheet" href="css/animations.css" type="text/css">
@@ -44,7 +46,7 @@
       <header id="site_header" class="header mobile-menu-hide">
         <div class="header-content">
           <div class="header-photo">
-            <img src="img/main_photo.jpg" alt="Osmar J. Beraldo">
+            <img src="img/main_photo.jpg" alt="Osmar J. Beraldo" loading="lazy">
           </div>
           <div class="header-titles">
             <h2>Osmar J. Beraldo</h2>
@@ -82,6 +84,7 @@
             <a href="#contact" class="nav-anim">
               <span class="menu-icon lnr lnr-envelope"></span>
               <span class="link-text">Contato</span>
+              
             </a>
           </li>
         </ul>
@@ -155,7 +158,7 @@
               <!-- Personal Information -->
               <div class="row">
                 <div class="col-xs-12 col-sm-7">
-                  <p>SSou um Analista em Desenvolvimento de Sistemas com mais de 15 anos de experiência em criação, desenvolvimento e manutenção de sistemas de alta performance. Destaco-me na implementação de soluções inovadoras e eficientes, utilizando uma ampla gama de tecnologias e linguagens de programação. Tenho um histórico comprovado de entrega de projetos complexos e bem-sucedidos tanto em ambientes de IoT quanto em web, com uma sólida experiência em C++, C#, React Native, e Inteligência Artificial.</p>
+                  <p>Sou Analista em Desenvolvimento de Sistemas com mais de 15 anos de experiência em criar e implementar soluções inovadoras, tanto para IoT quanto para ambientes web e Mobile. Minha especialidade está no desenvolvimento de sistemas de alta performance com tecnologias como C++, C#, React Native, Vite, PHP, Sql, Mysql, NoSql, FireBase, SupraBase, Python, IA entre outros.</p>
                 </div>
 
                 <div class="col-xs-12 col-sm-5">
@@ -224,19 +227,10 @@
                           <i class="lnr lnr-store"></i>
                         </div>
                         <div class="ci-text">
-                          <h4>Ecommerce</h4>
-                          <p>Criação e desenvolvimento de layouts personalizados para novas páginas da web e e-commerce, abrangendo desde o design e construção completa das páginas até a instalação em servidores na nuvem. Experiência na implementação de soluções específicas para sites corporativos e lojas online, garantindo a integração eficiente com sistemas de pagamento e a otimização para desempenho e segurança.</p>
+                          <h4>Ecommerce/Web Design</h4>
+                          <p>Criação e desenvolvimento de sites e e-commerces personalizados, desde o design visual até a instalação em servidores na nuvem. Experiência na integração com sistemas de pagamento, garantindo segurança e alta performance.</p>
                         </div>
-                      </div>
-                      <div class="info-block-w-icon">
-                        <div class="ci-icon">
-                          <i class="lnr lnr-laptop-phone"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h4>Web Design</h4>
-                          <p>Criação e desenvolvimento de layouts personalizados para novas páginas da web, abrangendo o design visual, a construção completa das páginas e a instalação em servidores na nuvem. Experiência em garantir a funcionalidade eficiente e a performance ideal das páginas, com foco em uma integração fluida e uma experiência de usuário otimizada.</p>
-                        </div>
-                      </div>
+                      </div>                     
                     </div>
                   </div>
                 </div>
@@ -304,8 +298,7 @@
                       <div class="divider"></div>
                       <div class="right-part">
                         <h4 class="item-title">Gerente TI (Analista)</h4>
-                        <p>Estou na empresa a mais de 10 anos, entrei para criar suas páginas de internet inicialmente,
-                          hoje sou responsável por todo ambiente de tecnologia da empresa, desde suas rede de internet física e na nuvem a desenvolvimento de programas e hardware IOT.</p>
+                        <p>Pipeline Piscinas (2010 - Atual): Responsável pela infraestrutura tecnológica da empresa, abrangendo redes, desenvolvimento de sistemas e dispositivos IoT. Implantei soluções como o SmartConect, um controlador avançado de piscinas.</p>
                       </div>
                     </div>
 
@@ -498,7 +491,7 @@
           <!-- Portfolio Subpage -->
           <section data-id="portfolio" class="animated-section">
             <div class="page-title">
-              <h2>Ultimos Projetos</h2>
+              <h2>Alguns Projetos</h2>
             </div>
 
             <div class="section-content">
@@ -513,10 +506,41 @@
                     <!-- Portfolio Grid -->
                     <div class="portfolio-grid three-columns">
 
+                      <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/adjac.png" alt="SmartConect"
+                            title="Aplicativo desenvolvido em React" />
+                          <a href="" target=""
+                            title="AdJac"></a>
+                           <a href="https://play.google.com/store/apps/details?id=com.zimiro.AdJc&hl=pt_BR" target="_blank"
+                            title="App AdJac"></a>
+
+                        </div>
+
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name">App AdJac Android</h4>
+                      </figure>
+
                       
+                      <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/apppipeconnect.png" alt="SmartConect"
+                            title="Aplicativo desenvolvido em React" />
+                          <a href="" target=""
+                            title="PipeControl"></a>
+                           <a href="https://apps.apple.com/us/app/pipeconnect/id6737283726?platform=iphone" target="_blank"
+                            title="App PipeConnect"></a>
+
+                        </div>
+
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name">App PipeConnect IOs/Android</h4>
+                      </figure>
+
+
+
+
                       <figure class="item lbvideo" data-groups='["category_all", "category_soundcloud"]'>
-
-
                         <div class="portfolio-item-img">
                           <img src="img/portfolio/smartconect.jpeg" alt="SmartConect"
                             title="Painel Controle de Piscina por Wifi, com aplicativo e Alexa (versão beta)." />
@@ -530,6 +554,10 @@
                         <i class="fas fa-video"></i>
                         <h4 class="name">SmartConect</h4>
                       </figure>
+
+
+
+
 
                         
                       <figure class="item lbvideo" data-groups='["category_all", "category_soundcloud"]'>
@@ -626,28 +654,18 @@
                         <h4 class="name">Piscina Alexa</h4>
                         <span class="category">Controle total da Piscina com Alexa</span>
                       </figure>
-
-                      <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                        <div class="portfolio-item-img">
-                          <img src="img/portfolio/7.jpg" alt="Gears" title="Gears" />
-                          <a href="https://criandoideiasoficial.github.io/gears/" target="_blank" title="Gears"></a>
-                        </div>
-
-                        <i class="far fa-file-alt"></i>
-                        <h4 class="name">Gears </h4>
-                        <span class="category">Versão Beta de cliente</span>
-                      </figure>
+                    
 
                       <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
                         <div class="portfolio-item-img">
-                          <img src="img/portfolio/8.jpg" alt="Editor Cabal zimiros" title="Editor Cabal zimiro" />
-                          <a class="lightbox" title="Editor Cabal zimiro" href="img/portfolio/full/8.jpg"></a>
+                          <img src="img/portfolio/8.jpg" alt="Z-Editor" title="Z-Editor" />
+                          <a class="lightbox" title="Z-Editor" href="img/portfolio/full/8.jpg"></a>
                         </div>
 
                         <i class="far fa-file-alt"></i>
                         <i class="far fa-image"></i>
-                        <h4 class="name">Editor Cabal zimiro</h4>
-                        <span class="category">Programa em Vb.net e Java</span>
+                        <h4 class="name">Z-Editor em C#</h4>
+                        <span class="category">Softaware</span>
                       </figure>
                     </div>
                   </div>
@@ -663,6 +681,7 @@
           <section data-id="contact" class="animated-section">
             <div class="page-title">
               <h2>Contato</h2>
+              <p>Entre em contato por WhatsApp ou e-mail para discutir projetos e parcerias."</p>
             </div>
 
             <div class="section-content">
